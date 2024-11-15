@@ -184,9 +184,7 @@ public class ClientEvents {
 
     @SubscribeEvent
     public void onGuiOpened(ScreenEvent.Opening event) {
-        if (IafConfig.customMainMenu && event.getScreen() instanceof TitleScreen && !(event.getScreen() instanceof IceAndFireMainMenu)) {
-            event.setNewScreen(new IceAndFireMainMenu());
-        }
+
     }
 
     // TODO: add this to client side config
