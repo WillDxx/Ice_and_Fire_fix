@@ -1,9 +1,6 @@
 name: Publish Alpha
 
-on:
-  push:
-    tags:
-      - "*alpha**"
+on: ubuntu-latest
 
 jobs:
   build:
